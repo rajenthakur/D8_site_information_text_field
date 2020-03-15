@@ -1,0 +1,11 @@
+site_information.page_json:
+  path: '/page_json/{siteapikey}/{node}'
+  defaults:
+    _controller: '\Drupal\site_information\Controller\PageJsonController::get_page_json'
+    _title: 'Page JSON'
+  options:
+    parameters:
+      entity:
+        type: entity:{entity_type}
+  requirements:
+    _permission: 'access content'

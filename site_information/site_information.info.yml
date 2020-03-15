@@ -1,0 +1,5 @@
+name: Site Information
+description: Site API key information form.
+package: Custom
+type: module
+core: 8.x
